@@ -257,7 +257,7 @@ int id action_context_bar 0x7f05001d
 int id action_menu_divider 0x7f050016
 int id action_menu_presenter 0x7f050017
 int id action_mode_close_button 0x7f050024
-int id action_settings 0x7f05004b
+int id action_settings 0x7f05004c
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id beginning 0x7f050011
@@ -318,6 +318,7 @@ int id top_action_bar 0x7f050020
 int id tvFullDatabaseView 0x7f05004a
 int id tv_db_eqip_location 0x7f050040
 int id tv_db_equip_name 0x7f05003e
+int id tv_full_database_view 0x7f05004b
 int id tv_serial_num 0x7f05003c
 int id up 0x7f050021
 int id useLogo 0x7f050003
@@ -367,10 +368,12 @@ int string abc_shareactionprovider_share_with 0x7f0a000c
 int string abc_shareactionprovider_share_with_application 0x7f0a000b
 int string action_settings 0x7f0a000f
 int string app_name 0x7f0a000d
-int string create_entry 0x7f0a0018
+int string create_entry 0x7f0a001a
+int string database_homescreen 0x7f0a0018
+int string database_view 0x7f0a0019
 int string date_due 0x7f0a0015
 int string date_last 0x7f0a0014
-int string edit_entry 0x7f0a0019
+int string edit_entry 0x7f0a001b
 int string equip_location 0x7f0a0013
 int string equip_name 0x7f0a0012
 int string hello_world 0x7f0a000e
