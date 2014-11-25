@@ -16,7 +16,7 @@ public class Database_Home123 extends ActionBarActivity {
 	
 	//Defining buttons for the DATABASE HOMEPAGE
 	
-		Button create, edit, lastDate, dueDate, reminder;
+		Button create, view, lastDate, dueDate, reminder;
 		
 		EditText sqlSerialNum, sqlName, sqlLocation;
 		//Toast t;
@@ -32,7 +32,7 @@ public class Database_Home123 extends ActionBarActivity {
 		 sqlLocation = (EditText) findViewById(R.id.et_db_eqip_location);
 		
 		 create = (Button) findViewById(R.id.bn_db_input);
-		 edit = (Button) findViewById(R.id.bn_db_edit);
+		 view = (Button) findViewById(R.id.bn_db_view);
 		 lastDate = (Button) findViewById(R.id.bn_db_date_last_service);
 		 dueDate = (Button) findViewById(R.id.bn_db_date_due);
 		 reminder = (Button) findViewById(R.id.bn_db_set_reminder);
@@ -109,13 +109,13 @@ public class Database_Home123 extends ActionBarActivity {
 					
 					
 					//add a toast to say updated
-					Toast.makeText(getApplicationContext(), "Updated", Toast.LENGTH_LONG).show();
+					//Toast.makeText(getApplicationContext(), "Updated", Toast.LENGTH_LONG).show();
 					
 				}
 			});
 	     
 	      //setting up an onClickListener for the edit button
-	        edit.setOnClickListener(new View.OnClickListener() {
+	        view.setOnClickListener(new View.OnClickListener() {
 				
 				@Override
 				public void onClick(View v) {
@@ -133,6 +133,11 @@ public class Database_Home123 extends ActionBarActivity {
 				@Override
 				public void onClick(View v) {
 					// TODO Auto-generated method stub
+					//intention to open up the datePicker screen
+					Intent i = new Intent("ie.nuim.cs.appkeep.DATE_PICKER_DIALOG123");
+					startActivity(i);
+					
+					
 					
 				}
 			}); 

@@ -1105,20 +1105,22 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f05004c;
+        public static final int action_settings=0x7f05004f;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
         public static final int bn_db_date_due=0x7f050043;
         public static final int bn_db_date_last_service=0x7f050042;
-        public static final int bn_db_edit=0x7f050045;
         public static final int bn_db_input=0x7f050044;
         public static final int bn_db_set_reminder=0x7f050046;
+        public static final int bn_db_view=0x7f050045;
+        public static final int bn_set_date=0x7f05004e;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
         public static final int dialog=0x7f05000e;
         public static final int disableHome=0x7f050008;
+        public static final int dp_last_date=0x7f05004d;
         public static final int dropdown=0x7f05000f;
         public static final int edit_query=0x7f050030;
         public static final int end=0x7f050013;
@@ -1161,6 +1163,7 @@ containing a value of this type.
         public static final int tabMode=0x7f050002;
         public static final int tableLayout1=0x7f050048;
         public static final int tableRow1=0x7f050049;
+        public static final int textView1=0x7f05004c;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int tvFullDatabaseView=0x7f05004a;
@@ -1225,7 +1228,8 @@ containing a value of this type.
         public static final int activity_database__home123=0x7f030018;
         public static final int activity_database_view123_land=0x7f030019;
         public static final int database_view123=0x7f03001a;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001b;
+        public static final int date_picker_dialog123=0x7f03001b;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001c;
     }
     public static final class menu {
         public static final int database__home123=0x7f0c0000;
@@ -1278,21 +1282,27 @@ containing a value of this type.
     #FF8533 - dark gold
     A34719 - brown
          */
-        public static final int create_entry=0x7f0a001a;
+        public static final int create_entry=0x7f0a001e;
         /**   Manifest String names 
          */
-        public static final int database_homescreen=0x7f0a0018;
-        public static final int database_view=0x7f0a0019;
+        public static final int database_homescreen=0x7f0a0019;
+        public static final int database_view=0x7f0a001a;
         public static final int date_due=0x7f0a0015;
         public static final int date_last=0x7f0a0014;
-        public static final int edit_entry=0x7f0a001b;
         public static final int equip_location=0x7f0a0013;
         public static final int equip_name=0x7f0a0012;
         public static final int hello_world=0x7f0a000e;
+        public static final int num=0x7f0a0018;
         public static final int serial_num=0x7f0a0010;
         public static final int serial_num_hint=0x7f0a0011;
+        /**   DatePicker String names 
+         */
+        public static final int set_date=0x7f0a001b;
+        public static final int set_date_hint=0x7f0a001c;
+        public static final int set_date_last_service=0x7f0a001d;
         public static final int set_reminder=0x7f0a0016;
-        public static final int view_database=0x7f0a0017;
+        public static final int view_database=0x7f0a001f;
+        public static final int view_db=0x7f0a0017;
     }
     public static final class style {
         /** 

@@ -18,11 +18,17 @@
     <string name="date_due">Service due</string>
     <string name="set_reminder">Set Reminder</string>
     
-    <string name="view_database">View Database</string>
+    <string name="view_db">View Database</string>
+    <string name="num">Number</string>
     
     <!--  Manifest String names -->
     <string name="database_homescreen">Database Homescreen</string>
     <string name="database_view">Database View</string>
+    
+    <!--  DatePicker String names -->
+     <string name="set_date">Set Date</string>
+     <string name="set_date_hint">Set Date</string>
+     <string name="set_date_last_service">Set Date of Last Service</string>
     
     
     <!--  Button strings to input and edit database entries. Colors used: 
@@ -30,7 +36,7 @@
     #FF8533 - dark gold
     A34719 - brown-->
     <string name="create_entry">Create entry</string>
-    <string name="edit_entry">Edit entry</string>
+    <string name="view_database">View Database</string>
     <color name="bn_color">#FF9147</color>
     <color name="bn_color2">#FFC985</color>
     <color name="bn_color3">#FF0000</color>

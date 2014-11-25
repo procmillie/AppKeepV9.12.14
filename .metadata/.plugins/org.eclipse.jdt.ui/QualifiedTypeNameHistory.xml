@@ -8,5 +8,11 @@
 <fullyQualifiedTypeName name="ie.nuim.cs.appkeep.R.layout"/>
 <fullyQualifiedTypeName name="android.database.sqlite.SQLiteOpenHelper"/>
 <fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.content.ContentValues"/>
+<fullyQualifiedTypeName name="android.app.Dialog"/>
+<fullyQualifiedTypeName name="android.database.SQLException"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
 <fullyQualifiedTypeName name="ie.nuim.cs.appkeep.R.id"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.database.Cursor"/>
 </qualifiedTypeNameHistroy>

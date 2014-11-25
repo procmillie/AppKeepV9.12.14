@@ -2,6 +2,7 @@ package ie.nuim.cs.appkeep;
 
 import android.content.ContentValues;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
@@ -13,7 +14,8 @@ public class Equipment123 {
 	
 	//setting up database variables (final as they will not be changing)
 	
-	public static final String KEY_SERIAL_NUM = "_id";
+	public static final String KEY_ROW_ID = "_id";
+	public static final String KEY_SERIAL_NUM = "serial_num";
 	public static final String KEY_EQUIP_NAME = "equipment_name";
 	public static final String KEY_LOCATION = "location";
 	public static final String KEY_LAST_DATE = "service_last_date";
@@ -23,7 +25,7 @@ public class Equipment123 {
 	
 	private static final String DATABASE_NAME = "equipment";
 	private static final String DATABASE_TABLE = "full_list";
-	private static final int DATABASE_VERSION = 1;
+	private static final int DATABASE_VERSION = 2;
 	
 	
 	
@@ -54,9 +56,10 @@ public class Equipment123 {
 		public void onCreate(SQLiteDatabase db) {
 			// TODO Auto-generated method stub
 			//Creating our database according to our column headings, ie. input variables
-			//Serial number is the primary key and we are saying that we want all fields to have an input, ie. not null
-			db.execSQL("CREATE TABLE "+ DATABASE_TABLE + " (" +
-					KEY_SERIAL_NUM + " TEXT PRIMARY KEY, " +
+			//Row id is the primary key and we are saying that we want all fields to have an input, ie. not null
+			db.execSQL("CREATE TABLE " + DATABASE_TABLE + " (" +
+					KEY_ROW_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+					KEY_SERIAL_NUM + " TEXT NOT NULL, " +
 					KEY_EQUIP_NAME + " TEXT NOT NULL, " +
 					KEY_LOCATION + " TEXT NOT NULL, " +
 					KEY_LAST_DATE + " TEXT NOT NULL, " +
@@ -122,8 +125,38 @@ public class Equipment123 {
 	public String getData() {
 		// TODO Auto-generated method stub
 		//makes a string array out of our database columnsh
-		String [] columns = new String [] {KEY_SERIAL_NUM, KEY_EQUIP_NAME, KEY_LOCATION};
-		return null;
+		String [] columns = new String [] {KEY_ROW_ID, KEY_SERIAL_NUM, KEY_EQUIP_NAME, KEY_LOCATION, KEY_LAST_DATE, KEY_DUE_DATE};
+		
+		//reading information from the columns using the cursor
+		//this is where we can make queries using selection, having, order by / group by etc
+		Cursor c = appKeepDatabase.query(DATABASE_TABLE, columns, null, null, null, null, null);
+		//String to hold the return value of all the elements in our database 
+		String result = "";
+		
+		//setting up ints to represent each of the column indices
+		int iRow = c.getColumnIndex(KEY_ROW_ID);
+		int iSerialNum = c.getColumnIndex(KEY_SERIAL_NUM);
+		int iName = c.getColumnIndex(KEY_EQUIP_NAME);
+		int iLocation = c.getColumnIndex(KEY_LOCATION);
+		int iLastDate= c.getColumnIndex(KEY_LAST_DATE);
+		int iDueDate = c.getColumnIndex(KEY_DUE_DATE);
+		
+		//read all the data from the database in order to make a String out of it to return through the getData() method
+		//and back to the Database_View123 class where it was called in the onCreate() method
+		//For me, this represents a new way of doing a for loop, ie using c.someMethod()
+		for(c.moveToFirst(); !c.isAfterLast(); c.moveToNext()){
+			
+			//result here represents one line of our database 
+			result = result + c.getString(iRow) + "\t" +
+					c.getString(iSerialNum) + "\t" + 
+					c.getString(iName) + "\t" +
+					c.getString(iLocation) + "\t" +
+					c.getString(iLastDate) + "\t" +
+					c.getString(iDueDate) + "\n";
+		}
+		
+		//returned result here will be the concatinated result of all the elements of the database, across all lines
+		return result;
 	}
 
 }

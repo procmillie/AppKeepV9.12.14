@@ -18,6 +18,9 @@
         android:scrollbars="horizontal|vertical" >
 
         <TableRow android:id="@+id/tableRow1">
+              <TextView  android:text="@string/num" 	 android:layout_width="match_parent"   android:layout_height="match_parent"
+                  android:layout_weight="1"/>
+            
               <TextView  android:text="@string/serial_num" 	 android:layout_width="match_parent"   android:layout_height="match_parent"
                   android:layout_weight="1"/>
 
