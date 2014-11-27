@@ -20,7 +20,7 @@
          android:ems="10"
          android:padding="5dp"
          android:textSize="15sp" 
-         android:background="@drawable/rounded_box"
+        
          android:text="@string/set_date_last_service" />
 
 	<DatePicker

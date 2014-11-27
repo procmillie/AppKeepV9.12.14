@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="android.widget.Button"/>
 <fullyQualifiedTypeName name="android.widget.Toast"/>
 <fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
-<fullyQualifiedTypeName name="android.app.DatePickerDialog"/>
 <fullyQualifiedTypeName name="android.support.v7.app.ActionBarActivity"/>
 <fullyQualifiedTypeName name="ie.nuim.cs.appkeep.R.layout"/>
 <fullyQualifiedTypeName name="android.database.sqlite.SQLiteOpenHelper"/>
-<fullyQualifiedTypeName name="android.widget.EditText"/>
 <fullyQualifiedTypeName name="android.content.ContentValues"/>
-<fullyQualifiedTypeName name="android.app.Dialog"/>
 <fullyQualifiedTypeName name="android.database.SQLException"/>
 <fullyQualifiedTypeName name="android.content.Intent"/>
-<fullyQualifiedTypeName name="ie.nuim.cs.appkeep.R.id"/>
-<fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="android.database.Cursor"/>
+<fullyQualifiedTypeName name="android.app.Activity"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.os.Bundle"/>
+<fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="android.app.DialogFragment"/>
+<fullyQualifiedTypeName name="android.widget.EditText"/>
+<fullyQualifiedTypeName name="android.app.Dialog"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="android.app.DatePickerDialog"/>
+<fullyQualifiedTypeName name="android.widget.DatePicker"/>
+<fullyQualifiedTypeName name="ie.nuim.cs.appkeep.R.id"/>
 </qualifiedTypeNameHistroy>

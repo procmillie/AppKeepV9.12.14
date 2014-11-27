@@ -17,9 +17,14 @@
     <string name="date_last">Last service</string>
     <string name="date_due">Service due</string>
     <string name="set_reminder">Set Reminder</string>
+    <string name="query">Query</string>
+    <string name="row_num">type row number</string>
     
     <string name="view_db">View Database</string>
-    <string name="num">Number</string>
+    <string name="num">#</string>
+    <string name="edit_entry">Edit</string>
+    <string name="delete_entry">Delete</string>
+    
     
     <!--  Manifest String names -->
     <string name="database_homescreen">Database Homescreen</string>
