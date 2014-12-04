@@ -6,10 +6,10 @@
     	android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-  <!--   <HorizontalScrollView
+     <HorizontalScrollView
         android:id="@+id/horizontalScrollView1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >-->
+        android:layout_height="wrap_content" >
   
 
     <TableLayout android:id="@+id/tableLayout1" 
@@ -40,9 +40,11 @@
        
     </TableLayout>
     
-     <!-- </HorizontalScrollView>-->
+     </HorizontalScrollView>
 
     <TextView  android:text="@string/view_database"  android:id="@+id/tv_full_database_view" 
         android:layout_width="fill_parent"   android:layout_height="fill_parent"/>
+    
+     
 
 </LinearLayout>

@@ -59,7 +59,7 @@ public class Equipment123 {
 			//Row id is the primary key and we are saying that we want all fields to have an input, ie. not null
 			db.execSQL("CREATE TABLE " + DATABASE_TABLE + " (" +
 					KEY_ROW_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-					KEY_SERIAL_NUM + " TEXT NOT NULL" +
+					KEY_SERIAL_NUM + " TEXT NOT NULL, " +
 					KEY_EQUIP_NAME + " TEXT NOT NULL, " +
 					KEY_LOCATION + " TEXT, " +
 					KEY_LAST_DATE + " TEXT, " +

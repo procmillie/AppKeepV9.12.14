@@ -252,6 +252,9 @@ public class Database_Home123 extends ActionBarActivity {
 					tv.setText("Unsuccessful");
 					d.setContentView(tv);
 					d.show();
+				}finally{
+					//set up a toast to say deletion was successful
+					Toast.makeText(getApplicationContext(), "Updated", Toast.LENGTH_LONG).show();
 				}
 					
 				}
@@ -288,6 +291,9 @@ public class Database_Home123 extends ActionBarActivity {
 					tv.setText("Unsuccessful");
 					d.setContentView(tv);
 					d.show();
+				}finally{
+					//set up a toast to say deletion was successful
+					Toast.makeText(getApplicationContext(), "Deleted", Toast.LENGTH_LONG).show();
 				}
 					
 				}
