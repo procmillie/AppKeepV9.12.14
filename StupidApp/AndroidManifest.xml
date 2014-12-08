@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="11" />
+        android:targetSdkVersion="18" />
 
     <application
         android:allowBackup="true"
@@ -73,6 +73,22 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
+        <!-- For the Alarm Activity (AlarmActivity.java) -->
+        <activity
+            android:name=".AlarmActivity"
+            android:label="@string/app_name">
+            <intent-filter >
+                <action android:name="ie.nuim.cs.appkeep.ALARMACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        
+        <!-- For the Alarm Receiver (AlarmReceiver.java) -->
+        <receiver android:name=".AlarmReceiver" android:process="remote"/>
+        
+        
+        
     </application>
 
 </manifest>

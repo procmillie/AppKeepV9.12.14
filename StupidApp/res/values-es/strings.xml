@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppKeep</string>
+    <string name="hello_world">Hola Mundo!</string>
+    <string name="action_settings">Ajustes</string>
+    
+    <!-- Homepage string names -->
+    <string name="database">Base De Datos</string>
+    <string name="notifications">Fijar recordatorio</string>
+    <string name="timeline">Linea De Tiempo</string>
+    <string name="about">Acerca De</string>
+    
+    <!-- Alarms / Notification Strings -->
+    <string name="settings">Ajustes</string>
+    <string name="received">Alarma Recibida!</string>
+    <string name="invalid">Fecha/Hora Inválida!</string>
+    <string name="appkeep">AppKeep</string>
+    <string name="set">Fijar Alarma</string>
+    
+    <!-- Strings for DATABASE INPUT screen -->
+    <!-- Setting up background color and strings for text hints and text box titles that let users know what data to enter -->
+    
+    <color name="bground_color">#4585E6</color>
+    <color name="editText_bground">#D3E2F9</color>
+    <string name="serial_num">Número De Serie</string>
+    <string name="serial_num_hint">ejemploXX111</string>
+    <string name="equip_name">Nombre De Serie</string>
+    <string name="equip_location">Umbicación</string>
+    <string name="date_last">Servicio Anterior</string>
+    <string name="date_due">Siguiente Servicio</string>
+    <string name="set_reminder">Fijar Recordatorio</string>
+    <string name="query">Consulta</string>
+    <string name="row_num">Escriba Fila/Número</string>
+    
+    <string name="view_db">Ver Base De Datos</string>
+    <string name="num">#</string>
+    <string name="edit_entry">Editar</string>
+    <string name="delete_entry">Borrar</string>
+    
+    
+    <!--  Manifest String names -->
+    <string name="database_homescreen">Inicio De Base De Datos</string>
+    <string name="database_view">Vista De Base De Datos</string>
+    
+    <!--  DatePicker String names -->
+     <string name="set_date">Fijar Fecha</string>
+     <string name="set_date_hint">Fijar Fecha</string>
+     <string name="set_date_last_service">Fijar Fecha De Servicio Anterior</string>
+    
+    
+    <!--  Button strings to input and edit database entries. Colors used: 
+    #FF9147 - pale gold
+    #FF8533 - dark gold
+    A34719 - brown-->
+    <string name="create_entry">Crear Entrada</string>
+    <string name="view_database">Ver Base De Datos</string>
+    <color name="bn_color">#FF9147</color>
+    <color name="bn_color2">#FFC985</color>
+    <color name="bn_color3">#FF0000</color>
+    <color name="bn_color4">#FF3333</color>
+    <color name="bn_color5">#FFC985</color>
+    <color name="bn_color6">#A34719</color>
+    <color name="bn_color7">#99FF66</color>
+    
+    
+    
+
+</resources>

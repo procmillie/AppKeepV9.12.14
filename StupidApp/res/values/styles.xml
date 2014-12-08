@@ -20,7 +20,7 @@
      <!-- HOMEPAGE DESIGN -->
      <!-- A style for button text that can be applied to any page in the app -->
      
-  <style name="buttonstyle" parent="AppTheme" >
+  <style name="buttonstyle"  parent="AppTheme" >
     <item name="android:layout_width" >wrap_content</item>
     <item name="android:layout_height" >wrap_content</item>
     <item name="android:textColor" >#FFFFFF

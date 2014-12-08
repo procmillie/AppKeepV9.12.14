@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppKeep</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Doipenak</string>
+    
+    <!-- Homepage string names -->
+    <string name="database">Datu-Basea</string>
+    <string name="notifications">Ezarri Oroitarazlea</string>
+    <string name="timeline">Denbora-Lerroa</string>
+    <string name="about">Honi Buruz</string>
+    
+    <!-- Alarms / Notification Strings -->
+    <string name="settings">Doipenak</string>
+    <string name="received">Alarma Jasoa!</string>
+    <string name="invalid">Data/Ordu Baliogabea</string>
+    <string name="appkeep">AppKeep</string>
+    <string name="set">Ezarri Alarma</string>
+    
+    <!-- Strings for DATABASE INPUT screen -->
+    <!-- Setting up background color and strings for text hints and text box titles that let users know what data to enter -->
+    
+    <color name="bground_color">#4585E6</color>
+    <color name="editText_bground">#D3E2F9</color>
+    <string name="serial_num">Serie-Zenbakia</string>
+    <string name="serial_num_hint">adibideaXX111</string>
+    <string name="equip_name">Tresneria-Izena</string>
+    <string name="equip_location">Lokapena</string>
+    <string name="date_last">Aurreko Zerbitzua</string>
+    <string name="date_due">Hurrengo Zerbitzua</string>
+    <string name="set_reminder">Ezarri Oroitarazlea</string>
+    <string name="query">Eskaera</string>
+    <string name="row_num">Idatzi Lerroa/Zenbakia</string>
+    
+    <string name="view_db">Ikusi Datu-Basea</string>
+    <string name="num">#</string>
+    <string name="edit_entry">Editatu</string>
+    <string name="delete_entry">Ezabatu</string>
+    
+    
+    <!--  Manifest String names -->
+    <string name="database_homescreen">Datu-Base Hasiera</string>
+    <string name="database_view">Datu-Base Bista</string>
+    
+    <!--  DatePicker String names -->
+     <string name="set_date">Ezarri Data</string>
+     <string name="set_date_hint">Ezarri Data</string>
+     <string name="set_date_last_service">Ezarri Azken Zerbitzuaren</string>
+    
+    
+    <!--  Button strings to input and edit database entries. Colors used: 
+    #FF9147 - pale gold
+    #FF8533 - dark gold
+    A34719 - brown-->
+    <string name="create_entry">Sortu Sarrera</string>
+    <string name="view_database">Ikusi Datu-Basea</string>
+    <color name="bn_color">#FF9147</color>
+    <color name="bn_color2">#FFC985</color>
+    <color name="bn_color3">#FF0000</color>
+    <color name="bn_color4">#FF3333</color>
+    <color name="bn_color5">#FFC985</color>
+    <color name="bn_color6">#A34719</color>
+    <color name="bn_color7">#99FF66</color>
+    
+    
+    
+
+</resources>
