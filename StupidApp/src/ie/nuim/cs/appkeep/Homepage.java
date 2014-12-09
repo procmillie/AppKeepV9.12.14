@@ -75,7 +75,7 @@ public class Homepage extends Activity implements OnClickListener {
          case R.id.button4:
         	 //Intent notificationIntent=new Intent(getApplicationContext(), Database_Home123.class); //replace notificationpage with actual name of notification file
              //startActivity(notificationIntent);
-             Intent d = new Intent("ie.nuim.cs.appkeep.AlarmActivity");
+             Intent d = new Intent("ie.nuim.cs.appkeep.ALARMACTIVITY");
      		startActivity(d);
               
              break;

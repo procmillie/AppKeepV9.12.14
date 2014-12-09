@@ -68,7 +68,7 @@ public class AlarmActivity extends Activity{
     if(cal.compareTo(current) <= 0){
      //The set Date/Time already passed
         Toast.makeText(getApplicationContext(), 
-          "@string/invalid", 
+          "Invalid Date / Time", 
           Toast.LENGTH_LONG).show();
     }else{
      setAlarm(cal);

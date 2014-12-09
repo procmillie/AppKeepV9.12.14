@@ -84,11 +84,11 @@
             </intent-filter>
         </activity>
         
-        <!-- For the Alarm Receiver (AlarmReceiver.java) -->
+        <!-- For the Alarm Receiver (AlarmReceiver.java)  
         <receiver android:name=".AlarmReceiver" android:process="remote"/>
-        
+       -->
         
         
     </application>
-
-</manifest>
+     
+    </manifest>
