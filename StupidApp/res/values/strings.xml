@@ -21,7 +21,7 @@
     <!-- Strings for DATABASE INPUT screen -->
     <!-- Setting up background color and strings for text hints and text box titles that let users know what data to enter -->
     
-    <color name="bground_color">#4585E6</color>
+    <color name="bground_color">#8bbaf3</color>
     <color name="editText_bground">#D3E2F9</color>
     <string name="serial_num">Serial number</string>
     <string name="serial_num_hint">exampleXX111</string>

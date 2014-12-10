@@ -1096,12 +1096,13 @@ containing a value of this type.
         public static final int aboutbutton=0x7f020057;
         public static final int appkeeplogoonblackdrawablehdpi=0x7f020058;
         public static final int button_style=0x7f020059;
-        public static final int homeimage=0x7f02005a;
-        public static final int ic_launcher=0x7f02005b;
-        public static final int picture=0x7f02005c;
-        public static final int picture_pressed=0x7f02005d;
-        public static final int rounded_box=0x7f02005e;
-        public static final int splash_image=0x7f02005f;
+        public static final int buttonbackground=0x7f02005a;
+        public static final int homeimage=0x7f02005b;
+        public static final int ic_launcher=0x7f02005c;
+        public static final int picture=0x7f02005d;
+        public static final int picture_pressed=0x7f02005e;
+        public static final int rounded_box=0x7f02005f;
+        public static final int splash_image=0x7f020060;
     }
     public static final class id {
         public static final int action_bar=0x7f09001c;
