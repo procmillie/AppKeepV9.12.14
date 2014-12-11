@@ -1116,52 +1116,52 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f0a0002;
         public static final int action_menu_presenter=0x7f0a0003;
         public static final int action_mode_close_button=0x7f0a0024;
-        public static final int action_settings=0x7f0a005b;
+        public static final int action_settings=0x7f0a005f;
         public static final int activity_chooser_view_content=0x7f0a0025;
         public static final int always=0x7f0a000f;
         public static final int beginning=0x7f0a0016;
-        public static final int bn_db_delete=0x7f0a004f;
-        public static final int bn_db_edit=0x7f0a004e;
-        public static final int bn_db_input=0x7f0a0049;
-        public static final int bn_db_set_query=0x7f0a004d;
-        public static final int bn_db_view=0x7f0a004a;
-        public static final int bn_set_date=0x7f0a0056;
-        public static final int button1=0x7f0a0058;
-        public static final int button2=0x7f0a0057;
-        public static final int button3=0x7f0a0059;
-        public static final int button4=0x7f0a005a;
+        public static final int bn_db_delete=0x7f0a0054;
+        public static final int bn_db_edit=0x7f0a0053;
+        public static final int bn_db_input=0x7f0a004e;
+        public static final int bn_db_set_query=0x7f0a0052;
+        public static final int bn_db_view=0x7f0a004f;
+        public static final int bn_set_date=0x7f0a005a;
+        public static final int button1=0x7f0a005c;
+        public static final int button2=0x7f0a005b;
+        public static final int button3=0x7f0a005d;
+        public static final int button4=0x7f0a005e;
         public static final int checkbox=0x7f0a002d;
         public static final int collapseActionView=0x7f0a0010;
         public static final int default_activity_button=0x7f0a0028;
         public static final int dialog=0x7f0a0014;
         public static final int disableHome=0x7f0a0009;
-        public static final int dp_last_date=0x7f0a0055;
+        public static final int dp_last_date=0x7f0a0059;
         public static final int dropdown=0x7f0a0015;
         public static final int edit_query=0x7f0a0030;
         public static final int end=0x7f0a0017;
-        public static final int et_db_eqip_location=0x7f0a0045;
-        public static final int et_db_equip_name=0x7f0a0043;
-        public static final int et_db_serial_num=0x7f0a0041;
-        public static final int et_db_set_due_date=0x7f0a0048;
-        public static final int et_db_set_last_date=0x7f0a0047;
-        public static final int et_query_by_row=0x7f0a004c;
+        public static final int et_db_eqip_location=0x7f0a004a;
+        public static final int et_db_equip_name=0x7f0a0048;
+        public static final int et_db_serial_num=0x7f0a0046;
+        public static final int et_db_set_due_date=0x7f0a004d;
+        public static final int et_db_set_last_date=0x7f0a004c;
+        public static final int et_query_by_row=0x7f0a0051;
         public static final int expand_activities_button=0x7f0a0026;
         public static final int expanded_menu=0x7f0a002c;
         public static final int home=0x7f0a0000;
         public static final int homeAsUp=0x7f0a000a;
-        public static final int horizontalScrollView1=0x7f0a0050;
+        public static final int horizontalScrollView1=0x7f0a0055;
         public static final int icon=0x7f0a002a;
         public static final int ifRoom=0x7f0a0011;
         public static final int image=0x7f0a0027;
-        public static final int info=0x7f0a003f;
+        public static final int info=0x7f0a0044;
         public static final int listMode=0x7f0a0006;
         public static final int list_item=0x7f0a0029;
         public static final int middle=0x7f0a0018;
         public static final int never=0x7f0a0012;
         public static final int none=0x7f0a0019;
         public static final int normal=0x7f0a0007;
-        public static final int pickerdate=0x7f0a003c;
-        public static final int pickertime=0x7f0a003d;
+        public static final int pickerdate=0x7f0a0041;
+        public static final int pickertime=0x7f0a0042;
         public static final int progress_circular=0x7f0a0004;
         public static final int progress_horizontal=0x7f0a0005;
         public static final int radio=0x7f0a002f;
@@ -1175,7 +1175,7 @@ containing a value of this type.
         public static final int search_plate=0x7f0a0036;
         public static final int search_src_text=0x7f0a0037;
         public static final int search_voice_btn=0x7f0a003b;
-        public static final int setalarm=0x7f0a003e;
+        public static final int setalarm=0x7f0a0043;
         public static final int shortcut=0x7f0a002e;
         public static final int showCustom=0x7f0a000b;
         public static final int showHome=0x7f0a000c;
@@ -1183,17 +1183,21 @@ containing a value of this type.
         public static final int split_action_bar=0x7f0a001e;
         public static final int submit_area=0x7f0a0039;
         public static final int tabMode=0x7f0a0008;
-        public static final int tableLayout1=0x7f0a0051;
-        public static final int tableRow1=0x7f0a0052;
-        public static final int textView1=0x7f0a0054;
+        public static final int tableLayout1=0x7f0a0056;
+        public static final int tableRow1=0x7f0a0057;
+        public static final int textView1=0x7f0a003c;
+        public static final int textView2=0x7f0a003d;
+        public static final int textView3=0x7f0a003e;
+        public static final int textView4=0x7f0a003f;
+        public static final int textView5=0x7f0a0040;
         public static final int title=0x7f0a002b;
         public static final int top_action_bar=0x7f0a0020;
-        public static final int tv_db_eqip_location=0x7f0a0044;
-        public static final int tv_db_equip_name=0x7f0a0042;
-        public static final int tv_db_query_by_serial_num=0x7f0a004b;
-        public static final int tv_db_set_dates=0x7f0a0046;
-        public static final int tv_full_database_view=0x7f0a0053;
-        public static final int tv_serial_num=0x7f0a0040;
+        public static final int tv_db_eqip_location=0x7f0a0049;
+        public static final int tv_db_equip_name=0x7f0a0047;
+        public static final int tv_db_query_by_serial_num=0x7f0a0050;
+        public static final int tv_db_set_dates=0x7f0a004b;
+        public static final int tv_full_database_view=0x7f0a0058;
+        public static final int tv_serial_num=0x7f0a0045;
         public static final int up=0x7f0a0021;
         public static final int useLogo=0x7f0a000e;
         public static final int withText=0x7f0a0013;
@@ -1248,14 +1252,15 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030015;
         public static final int abc_search_view=0x7f030016;
         public static final int abc_simple_decor=0x7f030017;
-        public static final int activity_alarm=0x7f030018;
-        public static final int activity_database__home123=0x7f030019;
-        public static final int database_view123=0x7f03001a;
-        public static final int date_picker_dialog123=0x7f03001b;
-        public static final int homepage=0x7f03001c;
-        public static final int splash=0x7f03001d;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001e;
-        public static final int test=0x7f03001f;
+        public static final int about=0x7f030018;
+        public static final int activity_alarm=0x7f030019;
+        public static final int activity_database__home123=0x7f03001a;
+        public static final int database_view123=0x7f03001b;
+        public static final int date_picker_dialog123=0x7f03001c;
+        public static final int homepage=0x7f03001d;
+        public static final int splash=0x7f03001e;
+        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
+        public static final int test=0x7f030020;
     }
     public static final class menu {
         public static final int database__home123=0x7f0d0000;
@@ -1264,6 +1269,10 @@ containing a value of this type.
         public static final int splash_sound=0x7f050000;
     }
     public static final class string {
+        public static final int Ciaran=0x7f0b002e;
+        public static final int Mel=0x7f0b002c;
+        public static final int Ronan=0x7f0b002f;
+        public static final int Wayne=0x7f0b002d;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0b0001;
@@ -1321,7 +1330,7 @@ containing a value of this type.
     #FF8533 - dark gold
     A34719 - brown
          */
-        public static final int create_entry=0x7f0b002b;
+        public static final int create_entry=0x7f0b0030;
         /**  Homepage string names 
  Homepage string names 
  Homepage string names 
@@ -1340,6 +1349,9 @@ containing a value of this type.
         public static final int equip_location=0x7f0b001c;
         public static final int equip_name=0x7f0b001b;
         public static final int hello_world=0x7f0b000e;
+        /**  Strings for ABOUT screen 
+         */
+        public static final int info=0x7f0b002b;
         public static final int invalid=0x7f0b0016;
         public static final int notifications=0x7f0b0011;
         public static final int num=0x7f0b0023;
@@ -1363,7 +1375,7 @@ containing a value of this type.
          */
         public static final int settings=0x7f0b0014;
         public static final int timeline=0x7f0b0012;
-        public static final int view_database=0x7f0b002c;
+        public static final int view_database=0x7f0b0031;
         public static final int view_db=0x7f0b0022;
     }
     public static final class style {

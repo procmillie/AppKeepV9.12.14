@@ -47,7 +47,14 @@
      <string name="set_date">Set Date</string>
      <string name="set_date_hint">Set Date</string>
      <string name="set_date_last_service">Set Date of Last Service</string>
+     
+     <!-- Strings for ABOUT screen -->
     
+    <string name="info">AppKeep v.1.0</string>
+    <string name="Mel">Melissa Rizzi</string>
+    <string name="Wayne">Wayne Dunne</string>
+    <string name="Ciaran">Ciaran Twomey</string>
+    <string name="Ronan">Ronan Wills</string>
     
     <!--  Button strings to input and edit database entries. Colors used: 
     #FF9147 - pale gold

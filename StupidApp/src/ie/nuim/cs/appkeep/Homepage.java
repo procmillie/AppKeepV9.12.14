@@ -59,7 +59,7 @@ public class Homepage extends Activity implements OnClickListener {
         		break;
         
         case R.id.button2:
-        	 Intent aboutIntent=new Intent(getApplicationContext(), Database_Home123.class); //replace aboutpage with actual name of about file
+        	 Intent aboutIntent=new Intent(getApplicationContext(), About.class); //replace aboutpage with actual name of about file
              startActivity(aboutIntent);
               
               
