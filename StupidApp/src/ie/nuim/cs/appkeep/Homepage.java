@@ -27,12 +27,12 @@ public class Homepage extends Activity implements OnClickListener {
     
     
    @Override
-   protected void onCreate(Bundle savedInstanceState) {
+   protected void onCreate(Bundle savedInstanceState) { 
        super.onCreate(savedInstanceState);
        setContentView(R.layout.homepage);
        
-       aboutButton = (Button) findViewById(R.id.button2);
-       aboutButton.setOnClickListener(this);
+       aboutButton = (Button) findViewById(R.id.button2); //links each button to the corresponding button ID in the homepage layout
+       aboutButton.setOnClickListener(this); //uses OnClickListener to allow the user to press the button to go to a new Activity
        
        databaseButton = (Button) findViewById(R.id.button1);
        databaseButton.setOnClickListener(this);
@@ -46,20 +46,20 @@ public class Homepage extends Activity implements OnClickListener {
    }
 
    @Override
-   public void onClick(View v) {
+   public void onClick(View v) { //the onClick method that controls what the onClickListener associated with the above buttons will do
         
         switch(v.getId()) {
          
         	case R.id.button1:
-        	//Intent databaseIntent=new Intent(getApplicationContext(), Database_Home123.class); //replace databasepage with actual name of database file
+        	//Intent databaseIntent=new Intent(getApplicationContext(), Database_Home123.class); 
             //  startActivity(databaseIntent);
-        		Intent i = new Intent("ie.nuim.cs.appkeep.DATABASE_HOME123");
-        		startActivity(i);
+        		Intent i = new Intent("ie.nuim.cs.appkeep.DATABASE_HOME123"); //an intent to bring the user to the Databse homepage when button1 is pressed
+        		startActivity(i); //starts the intent above when the button is presed
            
         		break;
         
         case R.id.button2:
-        	 Intent aboutIntent=new Intent(getApplicationContext(), About.class); //replace aboutpage with actual name of about file
+        	 Intent aboutIntent=new Intent(getApplicationContext(), About.class); 
              startActivity(aboutIntent);
               
               
@@ -67,13 +67,13 @@ public class Homepage extends Activity implements OnClickListener {
          
          case R.id.button3:
         	 
-             Intent timelineIntent=new Intent(getApplicationContext(), Database_Home123.class); //replace timelinepage with actual name of timeline file
+             Intent timelineIntent=new Intent(getApplicationContext(), Database_Home123.class); 
              startActivity(timelineIntent);
               
              break;
          
          case R.id.button4:
-        	 //Intent notificationIntent=new Intent(getApplicationContext(), Database_Home123.class); //replace notificationpage with actual name of notification file
+        	 //Intent notificationIntent=new Intent(getApplicationContext(), Database_Home123.class); 
              //startActivity(notificationIntent);
              Intent d = new Intent("ie.nuim.cs.appkeep.ALARMACTIVITY");
      		startActivity(d);

@@ -9,12 +9,12 @@ import android.os.Bundle;
 public class Splash extends Activity {
  
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        // TODO Auto-generated method stub
+    protected void onCreate(Bundle savedInstanceState) {  //initializes the Splash Activity and sets the content according to the splash layout file
+        
         super.onCreate(savedInstanceState);
          
         setContentView(R.layout.splash);
-        Thread timer = new Thread()
+        Thread timer = new Thread() //A time to make the splash screen disappear after a set time interval
         {
              
             public void run()
@@ -22,13 +22,13 @@ public class Splash extends Activity {
                  
                 try{
                      
-                    sleep(3000);
+                    sleep(3000); //timer is currently set to 3 seconds (3000 milliseconds)
                      
-                } catch(InterruptedException e){
+                } catch(InterruptedException e){  //allows the timer Thread to stop after the interval set in try
                      
-                    e.printStackTrace();
+                    e.printStackTrace();  
                      
-                } finally{
+                } finally{ //once the timer Thread has stopped, an intent (launchmain) launches the Homepage Activity
                      
                     Intent launchMain = new Intent("ie.nuim.cs.appkeep.HOMEPAGE");
                      
